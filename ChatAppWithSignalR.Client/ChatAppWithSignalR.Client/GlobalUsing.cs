@@ -1,0 +1,12 @@
+﻿global using System;
+global using System.Collections.Generic;
+global using System.ComponentModel;
+global using System.Linq;
+global using System.Runtime.CompilerServices;
+global using System.Text;
+global using System.Threading.Tasks;
+global using System.Windows.Input;
+global using ChatAppWithSignalR.Client.Services.Authenticate;
+global using Newtonsoft.Json;
+global using ServiceProvider = ChatAppWithSignalR.Client.Services.ServiceProvider;
+global using ChatAppWithSignalR.Client.Helpers;

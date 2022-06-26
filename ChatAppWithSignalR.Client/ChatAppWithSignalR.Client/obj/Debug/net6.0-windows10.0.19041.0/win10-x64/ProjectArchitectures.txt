@@ -1,0 +1,1 @@
+D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client.csproj;x64

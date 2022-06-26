@@ -1,0 +1,46 @@
+is_global = true
+build_property.TargetFramework = net6.0-maccatalyst
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ChatAppWithSignalR.Client
+build_property.ProjectDir = D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\
+
+[D:/PROGRAMINGS/GitRepos/ChatAppWithSignalR.Client/ChatAppWithSignalR.Client/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ChatAppWithSignalR.Client.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[D:/PROGRAMINGS/GitRepos/ChatAppWithSignalR.Client/ChatAppWithSignalR.Client/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ChatAppWithSignalR.Client.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[D:/PROGRAMINGS/GitRepos/ChatAppWithSignalR.Client/ChatAppWithSignalR.Client/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ChatAppWithSignalR.Client.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[D:/PROGRAMINGS/GitRepos/ChatAppWithSignalR.Client/ChatAppWithSignalR.Client/Pages/LoginPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ChatAppWithSignalR.Client.Pages.LoginPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\LoginPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\LoginPage.xaml
+
+[D:/PROGRAMINGS/GitRepos/ChatAppWithSignalR.Client/ChatAppWithSignalR.Client/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ChatAppWithSignalR.Client.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[D:/PROGRAMINGS/GitRepos/ChatAppWithSignalR.Client/ChatAppWithSignalR.Client/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ChatAppWithSignalR.Client.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
