@@ -22,6 +22,35 @@ namespace ChatAppWithSignalR.Api.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
+            modelBuilder.Entity("ChatAppWithSignalR.Api.Entities.TblMessage", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<string>("Content")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("FromUserId")
+                        .HasColumnType("int");
+
+                    b.Property<bool>("IsRead")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTime>("SendDateTime")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("ToUserId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("TblMessages");
+                });
+
             modelBuilder.Entity("ChatAppWithSignalR.Api.Entities.TblUser", b =>
                 {
                     b.Property<int>("Id")
@@ -59,6 +88,25 @@ namespace ChatAppWithSignalR.Api.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("TblUsers");
+                });
+
+            modelBuilder.Entity("ChatAppWithSignalR.Api.Entities.TblUserFriend", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<int>("FriendId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("TblUserFriends");
                 });
 #pragma warning restore 612, 618
         }

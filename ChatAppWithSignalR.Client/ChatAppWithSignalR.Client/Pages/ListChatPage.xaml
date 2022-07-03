@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="ChatAppWithSignalR.Client.Pages.ListChatPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:helper="clr-namespace:ChatAppWithSignalR.Client.Helpers"
+    xmlns:viewModels="clr-namespace:ChatAppWithSignalR.Client.ViewModels"
+    Title="Chats"
+    Background="#13232f">
+    <ContentPage.BindingContext>
+        <viewModels:ListChatPageViewModel />
+    </ContentPage.BindingContext>
+    <ContentPage.IconImageSource>
+        <FontImageSource
+            FontFamily="IconFontTypes"
+            Glyph="{x:Static helper:IconFontHelper.Messenger}"
+            Size="20" />
+    </ContentPage.IconImageSource>
+    <RefreshView Margin="10">
+        <Grid RowSpacing="10">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40" />
+                <RowDefinition Height="45" />
+                <RowDefinition Height="90" />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+
+            <Grid>
+                <StackLayout Orientation="Horizontal">
+                    <Image
+                        HeightRequest="32"
+                        Source="{Binding UserInfo.AvatarSourceName}"
+                        VerticalOptions="Center"
+                        WidthRequest="32" />
+                    <Label
+                        Margin="10,0,0,0"
+                        FontAttributes="Bold"
+                        FontSize="20"
+                        Text="{Binding UserInfo.UserName}"
+                        VerticalOptions="Center" />
+                </StackLayout>
+                <StackLayout
+                    HorizontalOptions="End"
+                    Orientation="Horizontal"
+                    VerticalOptions="Center">
+                    <Button
+                        BackgroundColor="#152c39"
+                        CornerRadius="45"
+                        HeightRequest="32"
+                        WidthRequest="32">
+                        <Button.ImageSource>
+                            <FontImageSource
+                                FontFamily="IconFontTypes"
+                                Glyph="{x:Static helper:IconFontHelper.Camera_alt}"
+                                Size="18" />
+                        </Button.ImageSource>
+                    </Button>
+
+                    <Button
+                        Margin="10,0,0,0"
+                        BackgroundColor="#152c39"
+                        CornerRadius="45"
+                        HeightRequest="32"
+                        WidthRequest="32">
+                        <Button.ImageSource>
+                            <FontImageSource
+                                FontFamily="IconFontTypes"
+                                Glyph="{x:Static helper:IconFontHelper.Edit}"
+                                Size="18" />
+                        </Button.ImageSource>
+                    </Button>
+                </StackLayout>
+            </Grid>
+
+            <Grid Grid.Row="1">
+                <Frame
+                    Padding="0"
+                    BackgroundColor="#152c39"
+                    BorderColor="Transparent"
+                    CornerRadius=" 45">
+
+                    <StackLayout
+                        HeightRequest="48"
+                        Orientation="Horizontal"
+                        VerticalOptions="Center">
+                        <Image
+                            Margin="20,0,0,0"
+                            BackgroundColor="Transparent"
+                            VerticalOptions="Center">
+                            <Image.Source>
+                                <FontImageSource
+                                    FontFamily="IconFontTypes"
+                                    Glyph="{x:Static helper:IconFontHelper.Search}"
+                                    Size="18"
+                                    Color="Gray" />
+                            </Image.Source>
+                        </Image>
+
+                        <Label
+                            Margin="10,0,0,0"
+                            Text="Search"
+                            TextColor="Gray"
+                            VerticalOptions="Center" />
+                    </StackLayout>
+                </Frame>
+            </Grid>
+
+            <Grid Grid.Row="2">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="72" />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+                <StackLayout WidthRequest="72">
+                    <Button
+                        Margin="10,0,0,0"
+                        BackgroundColor="#152c39"
+                        CornerRadius="45"
+                        HeightRequest="54"
+                        WidthRequest="54">
+                        <Button.ImageSource>
+                            <FontImageSource
+                                FontFamily="IconFontTypes"
+                                Glyph="{x:Static helper:IconFontHelper.Video_call}"
+                                Size="24" />
+                        </Button.ImageSource>
+                    </Button>
+
+                    <Label
+                        Margin="0,5,0,0"
+                        FontSize="12"
+                        HorizontalOptions="Center"
+                        HorizontalTextAlignment="Center"
+                        Text="Create video call" />
+                </StackLayout>
+
+                <CollectionView
+                    Grid.Column="1"
+                    Margin="10,0,0,0"
+                    ItemsSource="{Binding UserFriends}">
+                    <CollectionView.ItemsLayout>
+                        <LinearItemsLayout ItemSpacing="10" Orientation="Horizontal" />
+                    </CollectionView.ItemsLayout>
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <VerticalStackLayout>
+                                <Grid HeightRequest="54" WidthRequest="58">
+                                    <Image
+                                        HeightRequest="54"
+                                        HorizontalOptions="Start"
+                                        Source="{Binding AvatarSourceName}"
+                                        WidthRequest="54" />
+                                    <Ellipse
+                                        Fill="Green"
+                                        HeightRequest="18"
+                                        HorizontalOptions="End"
+                                        IsVisible="{Binding IsOnline}"
+                                        Stroke="#152c39"
+                                        StrokeThickness="3"
+                                        VerticalOptions="End"
+                                        WidthRequest="18" />
+                                    <Frame
+                                        Padding="5,0,5,0"
+                                        BackgroundColor="SkyBlue"
+                                        BorderColor="#152c39"
+                                        CornerRadius="10"
+                                        HeightRequest="12"
+                                        HorizontalOptions="End"
+                                        IsVisible="{Binding IsAway}"
+                                        VerticalOptions="End">
+                                        <Label
+                                            FontSize="10"
+                                            HorizontalOptions="Center"
+                                            Text="{Binding AwayDuration}"
+                                            TextColor="Black"
+                                            VerticalOptions="Center" />
+                                    </Frame>
+                                </Grid>
+                                <Label
+                                    Margin="0,5,0,0"
+                                    FontSize="12"
+                                    HorizontalOptions="Center"
+                                    HorizontalTextAlignment="Center"
+                                    Text="{Binding UserName}" />
+                            </VerticalStackLayout>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </Grid>
+
+            <ListView
+                Grid.Row="3"
+                ItemsSource="{Binding LastestMessages}"
+                RowHeight="64"
+                SeparatorVisibility="None"
+                VerticalScrollBarVisibility="Never">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <HorizontalStackLayout>
+                                <Grid HeightRequest="54" WidthRequest="58">
+                                    <Image
+                                        HeightRequest="54"
+                                        HorizontalOptions="Start"
+                                        Source="{Binding UserFriendInfo.AvatarSourceName}"
+                                        WidthRequest="54" />
+                                    <Ellipse
+                                        Fill="Green"
+                                        HeightRequest="18"
+                                        HorizontalOptions="End"
+                                        IsVisible="{Binding UserFriendInfo.IsOnline}"
+                                        Stroke="#152c39"
+                                        StrokeThickness="3"
+                                        VerticalOptions="End"
+                                        WidthRequest="18" />
+                                    <Frame
+                                        Padding="5,0,5,0"
+                                        BackgroundColor="SkyBlue"
+                                        BorderColor="#152c39"
+                                        CornerRadius="10"
+                                        HeightRequest="12"
+                                        HorizontalOptions="End"
+                                        IsVisible="{Binding UserFriendInfo.IsAway}"
+                                        VerticalOptions="End">
+                                        <Label
+                                            FontSize="10"
+                                            HorizontalOptions="Center"
+                                            Text="{Binding UserFriendInfo.AwayDuration}"
+                                            TextColor="Black"
+                                            VerticalOptions="Center" />
+                                    </Frame>
+                                </Grid>
+
+                                <StackLayout
+                                    Margin="10,5,0,0"
+                                    HorizontalOptions="Start"
+                                    VerticalOptions="Center">
+                                    <Label
+                                        FontSize="17"
+                                        HorizontalOptions="Start"
+                                        HorizontalTextAlignment="Start"
+                                        Text="{Binding UserFriendInfo.UserName}"
+                                        VerticalOptions="Center" />
+
+                                    <Label
+                                        FontSize="12"
+                                        HorizontalOptions="Center"
+                                        HorizontalTextAlignment="Start"
+                                        Text="{Binding Content}"
+                                        VerticalOptions="Center" />
+
+                                </StackLayout>
+                            </HorizontalStackLayout>
+
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </Grid>
+
+    </RefreshView>
+</ContentPage>

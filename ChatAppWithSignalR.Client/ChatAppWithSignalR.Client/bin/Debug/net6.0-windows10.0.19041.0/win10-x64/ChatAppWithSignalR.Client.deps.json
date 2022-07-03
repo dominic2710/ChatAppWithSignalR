@@ -12,6 +12,7 @@
           "Microsoft.Maui.Dependencies": "6.0.400",
           "Microsoft.Maui.Extensions": "6.0.400",
           "Microsoft.Windows.SDK.BuildTools": "10.0.22000.194",
+          "Newtonsoft.Json": "13.0.1",
           "runtimepack.Microsoft.NETCore.App.Runtime.win-x64": "6.0.5",
           "runtimepack.Microsoft.Maui.Core.Runtime.win": "6.0.400",
           "runtimepack.Microsoft.Maui.Controls.Runtime.win": "6.0.400",
@@ -1102,6 +1103,14 @@
           }
         }
       },
+      "Newtonsoft.Json/13.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.1.25517"
+          }
+        }
+      },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
         "dependencies": {
           "System.Runtime.CompilerServices.Unsafe": "6.0.0"
@@ -1245,6 +1254,13 @@
       "sha512": "sha512-yc3j78WEFqmARLE0USyq0xdW2IEMNsToXAMF47vJ7zfMlCqzfrKsivKrcnIUHDrsJJkruR5lwZZ35JwVKh3AHQ==",
       "path": "microsoft.windowsappsdk/1.1.0",
       "hashPath": "microsoft.windowsappsdk.1.1.0.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "path": "newtonsoft.json/13.0.1",
+      "hashPath": "newtonsoft.json.13.0.1.nupkg.sha512"
     },
     "System.Diagnostics.DiagnosticSource/6.0.0": {
       "type": "package",

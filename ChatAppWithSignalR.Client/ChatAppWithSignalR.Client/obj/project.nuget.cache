@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2kYcCFj51EdGt+L16K1xH3CzwE7cqGwQzId5/INoeLydeDkuMUNcerhKaFT8aj6K/l/rRz0xjWYW9iQiBH2pwA==",
+  "dgSpecHash": "bcMMZYTHBamE01wgNsNuFqdig+ztX6kuYGnkyID0EVlhbmItSGvj2hHbRnEwGe+lJWhxhNKQiJ1hVjMjhE1i1g==",
   "success": true,
-  "projectFilePath": "D:\\PROGRAMINGS\\GitRepos\\ChatAppWithSignalR.Client\\ChatAppWithSignalR.Client\\ChatAppWithSignalR.Client.csproj",
+  "projectFilePath": "D:\\PROGRAMINGS\\GitRepos\\ChatAppWithSignalR\\ChatAppWithSignalR.Client\\ChatAppWithSignalR.Client\\ChatAppWithSignalR.Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MrTam\\.nuget\\packages\\googlegson\\2.9.0.1\\googlegson.2.9.0.1.nupkg.sha512",
     "C:\\Users\\MrTam\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.1\\microsoft.extensions.configuration.6.0.1.nupkg.sha512",

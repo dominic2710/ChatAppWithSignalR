@@ -2127,11 +2127,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\PROGRAMINGS\\GitRepos\\ChatAppWithSignalR.Api\\ChatAppWithSignalR.Api\\ChatAppWithSignalR.Api.csproj",
+      "projectUniqueName": "D:\\PROGRAMINGS\\GitRepos\\ChatAppWithSignalR\\ChatAppWithSignalR.Api\\ChatAppWithSignalR.Api\\ChatAppWithSignalR.Api.csproj",
       "projectName": "ChatAppWithSignalR.Api",
-      "projectPath": "D:\\PROGRAMINGS\\GitRepos\\ChatAppWithSignalR.Api\\ChatAppWithSignalR.Api\\ChatAppWithSignalR.Api.csproj",
+      "projectPath": "D:\\PROGRAMINGS\\GitRepos\\ChatAppWithSignalR\\ChatAppWithSignalR.Api\\ChatAppWithSignalR.Api\\ChatAppWithSignalR.Api.csproj",
       "packagesPath": "C:\\Users\\MrTam\\.nuget\\packages\\",
-      "outputPath": "D:\\PROGRAMINGS\\GitRepos\\ChatAppWithSignalR.Api\\ChatAppWithSignalR.Api\\obj\\",
+      "outputPath": "D:\\PROGRAMINGS\\GitRepos\\ChatAppWithSignalR\\ChatAppWithSignalR.Api\\ChatAppWithSignalR.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2146,7 +2146,8 @@
       ],
       "sources": {
         "C:\\Program Files\\dotnet\\library-packs": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://pkgs.dev.azure.com/uchida-dev/_packaging/systeminterface/nuget/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {

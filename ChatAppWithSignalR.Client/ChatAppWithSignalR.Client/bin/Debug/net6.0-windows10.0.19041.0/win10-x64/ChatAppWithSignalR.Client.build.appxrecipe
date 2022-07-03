@@ -10,31 +10,31 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>C88BB9E6-44A3-46D5-BD8E-75C222B56956</PackageIdentityName>
     <PackageIdentityPublisher>CN=User Name</PackageIdentityPublisher>
-    <IntermediateOutputPath>D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
+    <LayoutDir>D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
+    <AppXManifest Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri">
+    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\ChatAppWithSignalR.Client.runtimeconfig.json">
+    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\ChatAppWithSignalR.Client.runtimeconfig.json">
       <PackagePath>ChatAppWithSignalR.Client.runtimeconfig.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\ChatAppWithSignalR.Client.dll">
+    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\ChatAppWithSignalR.Client.dll">
       <PackagePath>ChatAppWithSignalR.Client.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
+    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>ChatAppWithSignalR.Client.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MrTam\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.5\runtimes\win-x64\lib\net6.0\Microsoft.CSharp.dll">
@@ -790,13 +790,16 @@
     <AppxPackagedFile Include="C:\Users\MrTam\.nuget\packages\microsoft.windowsappsdk\1.1.0\lib\net5.0-windows10.0.18362.0\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MrTam\.nuget\packages\newtonsoft.json\13.0.1\lib\netstandard2.0\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MrTam\.nuget\packages\microsoft.graphics.win2d\1.0.3.1\runtimes\win10-x64\native\Microsoft.Graphics.Canvas.dll">
       <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MrTam\.nuget\packages\microsoft.windowsappsdk\1.1.0\runtimes\win10-x64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\ChatAppWithSignalR.Client.deps.json">
+    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\ChatAppWithSignalR.Client.deps.json">
       <PackagePath>ChatAppWithSignalR.Client.deps.json</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\6.0.400\ref\net6.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
@@ -814,137 +817,185 @@
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Essentials.Ref.win\6.0.400\ref\net6.0-windows10.0.19041\Microsoft.Maui.Essentials.pri">
       <PackagePath>Microsoft.Maui.Essentials.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\Resources\Raw\AboutAssets.txt">
+    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
+    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
+    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
+    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
+    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
+    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
+    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\MaterialIcons-Regular.ttf">
+      <PackagePath>MaterialIcons-Regular.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
+    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
+    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\ant_man.scale-100.png">
+      <PackagePath>ant_man.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
+    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
+    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
+    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
+    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
+    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
+    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
+    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
+    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
+    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
+    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
+    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
+    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
+    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
+    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
+    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
+    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
+    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
+    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
+    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
+    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
+    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
+    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
+    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
+    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
+    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
+    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
+    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
+    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
+    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\apple_logo.scale-100.png">
+      <PackagePath>apple_logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\black_panther.scale-100.png">
+      <PackagePath>black_panther.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\black_widow.scale-100.png">
+      <PackagePath>black_widow.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
+    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
+    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
+    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
+    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\falcon.scale-100.png">
+      <PackagePath>falcon.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\google_logo.scale-100.png">
+      <PackagePath>google_logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\hulk.scale-100.png">
+      <PackagePath>hulk.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\loki.scale-100.png">
+      <PackagePath>loki.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\rocket.scale-100.png">
+      <PackagePath>rocket.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\root.scale-100.png">
+      <PackagePath>root.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\spider_man.scale-100.png">
+      <PackagePath>spider_man.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\thanos.scale-100.png">
+      <PackagePath>thanos.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\tony_stark.scale-100.png">
+      <PackagePath>tony_stark.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\vision.scale-100.png">
+      <PackagePath>vision.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\wanda.scale-100.png">
+      <PackagePath>wanda.scale-100.png</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

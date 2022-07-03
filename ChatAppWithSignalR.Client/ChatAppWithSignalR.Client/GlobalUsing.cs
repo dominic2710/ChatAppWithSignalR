@@ -10,3 +10,7 @@ global using ChatAppWithSignalR.Client.Services.Authenticate;
 global using Newtonsoft.Json;
 global using ServiceProvider = ChatAppWithSignalR.Client.Services.ServiceProvider;
 global using ChatAppWithSignalR.Client.Helpers;
+global using System.Collections.ObjectModel;
+global using ChatAppWithSignalR.Client.Models;
+global using ChatAppWithSignalR.Client.Services.ListChat;
+global using System.Web;

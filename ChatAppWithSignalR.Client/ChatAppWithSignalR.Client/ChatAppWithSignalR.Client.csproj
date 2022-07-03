@@ -49,8 +49,22 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Fonts\MaterialIcons-Regular.ttf" />
+	  <None Remove="Resources\Images\ant_man.png" />
 	  <None Remove="Resources\Images\apple_logo.png" />
+	  <None Remove="Resources\Images\black_panther.png" />
+	  <None Remove="Resources\Images\black_widow.png" />
+	  <None Remove="Resources\Images\falcon.png" />
 	  <None Remove="Resources\Images\google_logo.png" />
+	  <None Remove="Resources\Images\hulk.png" />
+	  <None Remove="Resources\Images\loki.png" />
+	  <None Remove="Resources\Images\rocket.png" />
+	  <None Remove="Resources\Images\root.png" />
+	  <None Remove="Resources\Images\spider_man.png" />
+	  <None Remove="Resources\Images\thanos.png" />
+	  <None Remove="Resources\Images\tony_stark.png" />
+	  <None Remove="Resources\Images\vision.png" />
+	  <None Remove="Resources\Images\wanda.png" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -58,6 +72,15 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Compile Update="Pages\ListChatPage.xaml.cs">
+	    <DependentUpon>ListChatPage.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="Pages\ListChatPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Pages\LoginPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

@@ -9,5 +9,7 @@
         public bool IsOnline { get; set; }
         public DateTime LastLogonTime { get; set; }
         public string Token { get; set; } = null!;
+        public bool IsAway { get; set; }
+        public string AwayDuration { get; set; } = null!;
     }
 }

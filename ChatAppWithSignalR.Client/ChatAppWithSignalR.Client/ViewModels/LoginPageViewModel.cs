@@ -49,10 +49,7 @@ namespace ChatAppWithSignalR.Client.ViewModels
                 var response = await ServiceProvider.GetInstance().Authenticate(request);
                 if (response.StatusCode == 200)
                 {
-                    await AppShell.Current.DisplayAlert("ChatApp",
-                        "Login sucessful! \n" +
-                        $"UserName: {response.UserName} \n" +
-                        $"Token: {response.Token}", "OK");
+                    await Shell.Current.GoToAsync($"ListChatPage?userId={response.Id}");
                 }
                 else
                 {

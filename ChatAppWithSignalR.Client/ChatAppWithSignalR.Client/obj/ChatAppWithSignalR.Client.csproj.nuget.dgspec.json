@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\PROGRAMINGS\\GitRepos\\ChatAppWithSignalR.Client\\ChatAppWithSignalR.Client\\ChatAppWithSignalR.Client.csproj": {}
+    "D:\\PROGRAMINGS\\GitRepos\\ChatAppWithSignalR\\ChatAppWithSignalR.Client\\ChatAppWithSignalR.Client\\ChatAppWithSignalR.Client.csproj": {}
   },
   "projects": {
-    "D:\\PROGRAMINGS\\GitRepos\\ChatAppWithSignalR.Client\\ChatAppWithSignalR.Client\\ChatAppWithSignalR.Client.csproj": {
+    "D:\\PROGRAMINGS\\GitRepos\\ChatAppWithSignalR\\ChatAppWithSignalR.Client\\ChatAppWithSignalR.Client\\ChatAppWithSignalR.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PROGRAMINGS\\GitRepos\\ChatAppWithSignalR.Client\\ChatAppWithSignalR.Client\\ChatAppWithSignalR.Client.csproj",
+        "projectUniqueName": "D:\\PROGRAMINGS\\GitRepos\\ChatAppWithSignalR\\ChatAppWithSignalR.Client\\ChatAppWithSignalR.Client\\ChatAppWithSignalR.Client.csproj",
         "projectName": "ChatAppWithSignalR.Client",
-        "projectPath": "D:\\PROGRAMINGS\\GitRepos\\ChatAppWithSignalR.Client\\ChatAppWithSignalR.Client\\ChatAppWithSignalR.Client.csproj",
+        "projectPath": "D:\\PROGRAMINGS\\GitRepos\\ChatAppWithSignalR\\ChatAppWithSignalR.Client\\ChatAppWithSignalR.Client\\ChatAppWithSignalR.Client.csproj",
         "packagesPath": "C:\\Users\\MrTam\\.nuget\\packages\\",
-        "outputPath": "D:\\PROGRAMINGS\\GitRepos\\ChatAppWithSignalR.Client\\ChatAppWithSignalR.Client\\obj\\",
+        "outputPath": "D:\\PROGRAMINGS\\GitRepos\\ChatAppWithSignalR\\ChatAppWithSignalR.Client\\ChatAppWithSignalR.Client\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
@@ -30,7 +30,8 @@
         ],
         "sources": {
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/uchida-dev/_packaging/systeminterface/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net6.0-android31.0": {

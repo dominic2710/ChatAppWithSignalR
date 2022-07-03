@@ -45,6 +45,23 @@ namespace ChatAppWithSignalR.Api.Functions.User
         public User GetUserById(int id)
         {
             throw new NotImplementedException();
+            //var entity = _chatAppContext.TblUsers
+            //    .Where(x => x.Id == id)
+            //    .FirstOrDefault();
+
+            //if (entity == null) return new User();
+
+            //var awayDuration = entity.IsOnline ? "" : Utilities.CalcAwayDuration(entity.LastLogonTime);
+            //return new User
+            //{
+            //    UserName = entity.UserName,
+            //    Id = entity.Id,
+            //    AvatarSourceName = entity.AvatarSourceName,
+            //    IsAway = awayDuration != "" ? true : false,
+            //    AwayDuration = awayDuration,
+            //    IsOnline = entity.IsOnline,
+            //    LastLogonTime = entity.LastLogonTime
+            //};
         }
 
         
