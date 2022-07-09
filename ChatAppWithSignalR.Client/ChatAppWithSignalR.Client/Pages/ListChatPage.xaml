@@ -6,17 +6,15 @@
     xmlns:helper="clr-namespace:ChatAppWithSignalR.Client.Helpers"
     xmlns:viewModels="clr-namespace:ChatAppWithSignalR.Client.ViewModels"
     Title="Chats"
-    Background="#13232f">
-    <ContentPage.BindingContext>
-        <viewModels:ListChatPageViewModel />
-    </ContentPage.BindingContext>
+    Background="#13232f"
+    NavigatedTo="ContentPage_NavigatedTo">
     <ContentPage.IconImageSource>
         <FontImageSource
             FontFamily="IconFontTypes"
             Glyph="{x:Static helper:IconFontHelper.Messenger}"
             Size="20" />
     </ContentPage.IconImageSource>
-    <RefreshView Margin="10">
+    <RefreshView Margin="10" IsRefreshing="{Binding IsRefreshing}">
         <Grid RowSpacing="10">
             <Grid.RowDefinitions>
                 <RowDefinition Height="40" />
@@ -148,7 +146,11 @@
                                         HeightRequest="54"
                                         HorizontalOptions="Start"
                                         Source="{Binding AvatarSourceName}"
-                                        WidthRequest="54" />
+                                        WidthRequest="54">
+                                        <Image.GestureRecognizers>
+                                            <TapGestureRecognizer Command="{Binding Path=OpenChatPageCommand, Source={RelativeSource AncestorType={x:Type viewModels:ListChatPageViewModel}}}" CommandParameter="{Binding Id}" />
+                                        </Image.GestureRecognizers>
+                                    </Image>
                                     <Ellipse
                                         Fill="Green"
                                         HeightRequest="18"
@@ -197,6 +199,9 @@
                     <DataTemplate>
                         <ViewCell>
                             <HorizontalStackLayout>
+                                <HorizontalStackLayout.GestureRecognizers>
+                                    <TapGestureRecognizer Command="{Binding Path=OpenChatPageCommand, Source={RelativeSource AncestorType={x:Type viewModels:ListChatPageViewModel}}}" CommandParameter="{Binding UserFriendInfo.Id}" />
+                                </HorizontalStackLayout.GestureRecognizers>
                                 <Grid HeightRequest="54" WidthRequest="58">
                                     <Image
                                         HeightRequest="54"

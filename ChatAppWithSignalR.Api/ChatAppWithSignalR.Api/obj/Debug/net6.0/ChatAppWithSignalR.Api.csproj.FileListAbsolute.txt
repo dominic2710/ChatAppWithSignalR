@@ -124,3 +124,8 @@ D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Api\ChatAppWithSig
 D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Api\ChatAppWithSignalR.Api\obj\Debug\net6.0\ChatAppWithSignalR.Api.pdb
 D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Api\ChatAppWithSignalR.Api\obj\Debug\net6.0\ChatAppWithSignalR.Api.genruntimeconfig.cache
 D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Api\ChatAppWithSignalR.Api\obj\Debug\net6.0\ref\ChatAppWithSignalR.Api.dll
+D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Api\ChatAppWithSignalR.Api\bin\Debug\net6.0\Microsoft.AspNet.SignalR.Core.dll
+D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Api\ChatAppWithSignalR.Api\bin\Debug\net6.0\Microsoft.Owin.dll
+D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Api\ChatAppWithSignalR.Api\bin\Debug\net6.0\Microsoft.Owin.Security.dll
+D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Api\ChatAppWithSignalR.Api\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Api\ChatAppWithSignalR.Api\bin\Debug\net6.0\Owin.dll

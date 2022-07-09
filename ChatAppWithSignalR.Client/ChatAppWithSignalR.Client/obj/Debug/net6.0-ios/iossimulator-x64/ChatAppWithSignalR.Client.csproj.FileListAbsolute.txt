@@ -214,7 +214,6 @@ D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWith
 D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\bin\Debug\net6.0-ios\iossimulator-x64\libxamarin-dotnet-debug.dylib
 D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\bin\Debug\net6.0-ios\iossimulator-x64\libxamarin-dotnet.a
 D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\bin\Debug\net6.0-ios\iossimulator-x64\libxamarin-dotnet.dylib
-D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-ios\iossimulator-x64\build-signature\signature
 D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-ios\iossimulator-x64\mauiimage.inputs
 D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-ios\iossimulator-x64\mauifont.inputs
 D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-ios\iossimulator-x64\mauisplash.inputs

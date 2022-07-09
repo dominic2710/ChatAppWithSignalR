@@ -17,7 +17,9 @@ namespace ChatAppWithSignalR.Client.ViewModels
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
 
-        public LoginPageViewModel()
+        private ServiceProvider _serviceProvider;
+
+        public LoginPageViewModel(ServiceProvider serviceProvider)
         {
             UserName = "wanda";
             Password = "Abc12345";
@@ -35,6 +37,7 @@ namespace ChatAppWithSignalR.Client.ViewModels
                     IsProcessing = false;
                 });
             });
+            this._serviceProvider = serviceProvider;
         }
 
         async Task Login()
@@ -46,7 +49,7 @@ namespace ChatAppWithSignalR.Client.ViewModels
                     LoginId = UserName,
                     Password = Password,
                 };
-                var response = await ServiceProvider.GetInstance().Authenticate(request);
+                var response = await _serviceProvider.Authenticate(request);
                 if (response.StatusCode == 200)
                 {
                     await Shell.Current.GoToAsync($"ListChatPage?userId={response.Id}");

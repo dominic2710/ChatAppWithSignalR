@@ -6,9 +6,6 @@
     xmlns:viewModel="clr-namespace:ChatAppWithSignalR.Client.ViewModels"
     Title="LoginPage"
     Background="#13232f">
-    <ContentPage.BindingContext>
-        <viewModel:LoginPageViewModel />
-    </ContentPage.BindingContext>
     <Grid>
         <VerticalStackLayout Margin="30" VerticalOptions="Center">
             <Label

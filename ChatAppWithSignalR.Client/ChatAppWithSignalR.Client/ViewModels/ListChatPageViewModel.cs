@@ -15,7 +15,9 @@ namespace ChatAppWithSignalR.Client.ViewModels
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
 
-        public ListChatPageViewModel()
+        private ServiceProvider _serviceProvider;
+
+        public ListChatPageViewModel(ServiceProvider serviceProvider)
         {
             UserInfo = new User();
             UserFriends = new ObservableCollection<User>();
@@ -27,12 +29,18 @@ namespace ChatAppWithSignalR.Client.ViewModels
                 {
                     IsRefreshing = true;
                     await GetListFriends();
-                }).GetAwaiter().OnCompleted(()=>
+                }).GetAwaiter().OnCompleted(() =>
                 {
                     IsRefreshing = false;
                 });
             });
 
+            OpenChatPageCommand = new Command<int>(async (param) =>
+            {
+                await Shell.Current.GoToAsync($"ChatPage?fromUserId={UserInfo.Id}&toUserId={param}");
+            });
+
+            this._serviceProvider = serviceProvider;
         }
 
         private User userInfo;
@@ -42,7 +50,7 @@ namespace ChatAppWithSignalR.Client.ViewModels
 
         async Task GetListFriends()
         {
-            var response = await ServiceProvider.GetInstance().CallWebApi<int, ListChatInitializeResponse>
+            var response = await _serviceProvider.CallWebApi<int, ListChatInitializeResponse>
                 ("/ListChat/Initialize", HttpMethod.Post, UserInfo.Id);
 
             if (response.StatusCode == 200)
@@ -57,11 +65,8 @@ namespace ChatAppWithSignalR.Client.ViewModels
             }
         }
 
-        public void ApplyQueryAttributes(IDictionary<string, object> query)
+        public void Initialize()
         {
-            if (query == null || query.Count == 0) return;
-
-            UserInfo.Id = int.Parse(HttpUtility.UrlDecode(query["userId"].ToString()));
             Task.Run(async () =>
             {
                 IsRefreshing = true;
@@ -70,6 +75,14 @@ namespace ChatAppWithSignalR.Client.ViewModels
             {
                 IsRefreshing = false;
             });
+        }
+
+        public void ApplyQueryAttributes(IDictionary<string, object> query)
+        {
+            if (query == null || query.Count == 0) return;
+
+            UserInfo.Id = int.Parse(HttpUtility.UrlDecode(query["userId"].ToString()));
+            
 
         }
 
@@ -96,6 +109,8 @@ namespace ChatAppWithSignalR.Client.ViewModels
             set { isRefreshing = value; OnPropertyChanged(); }
         }
 
-        public ICommand RefreshCommand { get; set; }
+        public ICommand RefreshCommand { get; set; }        
+
+        public ICommand OpenChatPageCommand { get; set; }
     }
 }

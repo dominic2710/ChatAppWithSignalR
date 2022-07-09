@@ -1,4 +1,6 @@
-﻿namespace ChatAppWithSignalR.Client;
+﻿
+
+namespace ChatAppWithSignalR.Client;
 
 public static class MauiProgram
 {
@@ -14,6 +16,16 @@ public static class MauiProgram
                 fonts.AddFont("MaterialIcons-Regular.ttf", "IconFontTypes");
             });
 
-		return builder.Build();
+		builder.Services.AddSingleton<ChatHub>();
+		builder.Services.AddSingleton<AppShell>();
+		builder.Services.AddSingleton<LoginPage>();
+        builder.Services.AddSingleton<ListChatPage>();
+        builder.Services.AddSingleton<ChatPage>();
+        builder.Services.AddSingleton<LoginPageViewModel>();
+        builder.Services.AddSingleton<ListChatPageViewModel>();
+		builder.Services.AddSingleton<ChatPageViewModel>();
+		builder.Services.AddSingleton<ServiceProvider>();
+
+        return builder.Build();
 	}
 }

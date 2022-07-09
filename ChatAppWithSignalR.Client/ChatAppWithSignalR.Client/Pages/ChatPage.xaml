@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="ChatAppWithSignalR.Client.Pages.ChatPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:helper="clr-namespace:ChatAppWithSignalR.Client.Helpers"
+    xmlns:viewModel="clr-namespace:ChatAppWithSignalR.Client.ViewModels"
+    Title="ChatPage"
+    Background="#13232f"
+    NavigatedTo="ContentPage_NavigatedTo">
+
+    <RefreshView Margin="10" IsRefreshing="{Binding IsRefreshing}">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40" />
+                <RowDefinition />
+                <RowDefinition Height="40" />
+            </Grid.RowDefinitions>
+
+            <Grid>
+                <StackLayout Orientation="Horizontal">
+                    <Image
+                        HeightRequest="32"
+                        Source="{Binding FriendInfo.AvatarSourceName}"
+                        VerticalOptions="Center"
+                        WidthRequest="32" />
+                    <Label
+                        Margin="10,0,0,0"
+                        FontAttributes="Bold"
+                        FontSize="20"
+                        Text="{Binding FriendInfo.UserName}"
+                        VerticalOptions="Center" />
+                </StackLayout>
+                <StackLayout
+                    HorizontalOptions="End"
+                    Orientation="Horizontal"
+                    VerticalOptions="Center">
+                    <Button
+                        BackgroundColor="#152c39"
+                        CornerRadius="45"
+                        HeightRequest="32"
+                        WidthRequest="32">
+                        <Button.ImageSource>
+                            <FontImageSource
+                                FontFamily="IconFontTypes"
+                                Glyph="{x:Static helper:IconFontHelper.Camera_alt}"
+                                Size="18" />
+                        </Button.ImageSource>
+                    </Button>
+
+                    <Button
+                        Margin="10,0,0,0"
+                        BackgroundColor="#152c39"
+                        CornerRadius="45"
+                        HeightRequest="32"
+                        WidthRequest="32">
+                        <Button.ImageSource>
+                            <FontImageSource
+                                FontFamily="IconFontTypes"
+                                Glyph="{x:Static helper:IconFontHelper.Edit}"
+                                Size="18" />
+                        </Button.ImageSource>
+                    </Button>
+                </StackLayout>
+            </Grid>
+
+            <CollectionView
+                Grid.Row="1"
+                Margin="0,10,0,10"
+                ItemsSource="{Binding Messages}">
+                <CollectionView.ItemsLayout>
+                    <LinearItemsLayout ItemSpacing="10" Orientation="Vertical" />
+                </CollectionView.ItemsLayout>
+
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <VerticalStackLayout>
+                            <VerticalStackLayout.HorizontalOptions>
+                                <MultiBinding Converter="{StaticResource FromUserIdToHorizontalOptionConverter}">
+                                    <Binding Path="FromUserId" />
+                                    <Binding Path="ToUserId" Source="{RelativeSource AncestorType={x:Type viewModel:ChatPageViewModel}}" />
+                                </MultiBinding>
+                            </VerticalStackLayout.HorizontalOptions>
+                            <Label
+                                Margin="5,0,5,0"
+                                FontSize="11"
+                                HorizontalOptions="{Binding HorizontalOptions, Source={RelativeSource AncestorType={x:Type VerticalStackLayout}}}"
+                                Text="{Binding SendDateTime, StringFormat='{0:HH:mm}'}" />
+
+                            <Frame Padding="10,6,10,6" CornerRadius="10">
+                                <Frame.BackgroundColor>
+                                    <MultiBinding Converter="{StaticResource FromUserIdToBackgroudColorConverter}">
+                                        <Binding Path="FromUserId" />
+                                        <Binding Path="ToUserId" Source="{RelativeSource AncestorType={x:Type viewModel:ChatPageViewModel}}" />
+                                    </MultiBinding>
+                                </Frame.BackgroundColor>
+                                <Label
+                                    FontSize="12"
+                                    Text="{Binding Content}"
+                                    TextColor="Black" />
+                            </Frame>
+                        </VerticalStackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+            <Grid Grid.Row="2">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition Width="40" />
+                </Grid.ColumnDefinitions>
+
+                <Frame
+                    Padding="10,0,10,0"
+                    BorderColor="Transparent"
+                    CornerRadius=" 20"
+                    HeightRequest=" 36">
+                    <Entry
+                        Placeholder="Aa"
+                        Text="{Binding Message}"
+                        TextColor="Black"
+                        VerticalOptions="Center" />
+                </Frame>
+
+                <Button
+                    Grid.Column="1"
+                    BackgroundColor="#152c39"
+                    Command="{Binding SendMessageCommand}"
+                    CornerRadius="45"
+                    HeightRequest="32"
+                    WidthRequest="32">
+                    <Button.ImageSource>
+                        <FontImageSource
+                            FontFamily="IconFontTypes"
+                            Glyph="{x:Static helper:IconFontHelper.Send}"
+                            Size="18" />
+                    </Button.ImageSource>
+                </Button>
+            </Grid>
+        </Grid>
+    </RefreshView>
+
+</ContentPage>

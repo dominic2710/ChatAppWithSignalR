@@ -15,6 +15,9 @@ namespace ChatAppWithSignalR.Api.Helpers
         public async Task Invoke(HttpContext context, IUserFunction userFunction)
         {
             var token = context.Request.Headers["Authorization"].FirstOrDefault()?.Split(" ").Last();
+            if (token == null)
+                token = context.Request.Headers["ChatHubBearer"].FirstOrDefault()?.Split(" ").Last();
+
             if (token != null)
                 AttachUserToContext(context, userFunction, token);
 

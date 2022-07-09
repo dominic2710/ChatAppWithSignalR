@@ -6,3 +6,4 @@ global using ChatAppWithSignalR.Api.Entities;
 global using Microsoft.AspNetCore.Mvc.Filters;
 global using Microsoft.AspNetCore.Mvc;
 global using ChatAppWithSignalR.Api.Helpers;
+global using Microsoft.AspNetCore.SignalR;

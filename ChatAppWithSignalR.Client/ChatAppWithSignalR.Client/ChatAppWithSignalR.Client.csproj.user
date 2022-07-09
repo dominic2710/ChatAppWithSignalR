@@ -8,6 +8,9 @@
     <DefaultDevice>pixel_5_-_api_30</DefaultDevice>
   </PropertyGroup>
   <ItemGroup>
+    <MauiXaml Update="Pages\ChatPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Pages\ListChatPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
