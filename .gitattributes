@@ -1,5 +1,2 @@
 *.cs linguist-detectable=true
-*.java linguist-detectable=true
-public/libs/* linguist-vendored
-scot-ui/public/libs/ linguist-vendored
-docs/* linguist-documentation
+*.java linguist-detectable=false
