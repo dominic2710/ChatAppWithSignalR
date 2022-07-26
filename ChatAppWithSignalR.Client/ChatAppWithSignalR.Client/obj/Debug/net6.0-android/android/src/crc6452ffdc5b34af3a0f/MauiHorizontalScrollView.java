@@ -15,6 +15,7 @@ public class MauiHorizontalScrollView
 			"n_onTouchEvent:(Landroid/view/MotionEvent;)Z:GetOnTouchEvent_Landroid_view_MotionEvent_Handler\n" +
 			"n_isHorizontalScrollBarEnabled:()Z:GetIsHorizontalScrollBarEnabledHandler\n" +
 			"n_setHorizontalScrollBarEnabled:(Z)V:GetSetHorizontalScrollBarEnabled_ZHandler\n" +
+			"n_onScrollChanged:(IIII)V:GetOnScrollChanged_IIIIHandler\n" +
 			"";
 		mono.android.Runtime.register ("Microsoft.Maui.Platform.MauiHorizontalScrollView, Microsoft.Maui", MauiHorizontalScrollView.class, __md_methods);
 	}
@@ -90,6 +91,14 @@ public class MauiHorizontalScrollView
 	}
 
 	private native void n_setHorizontalScrollBarEnabled (boolean p0);
+
+
+	public void onScrollChanged (int p0, int p1, int p2, int p3)
+	{
+		n_onScrollChanged (p0, p1, p2, p3);
+	}
+
+	private native void n_onScrollChanged (int p0, int p1, int p2, int p3);
 
 	private java.util.ArrayList refList;
 	public void monodroidAddReference (java.lang.Object obj)

@@ -280,3 +280,12 @@ D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWith
 D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-ios\iossimulator-x64\ChatAppWithSignalR.Client.pdb
 D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-ios\iossimulator-x64\ChatAppWithSignalR.Client.genruntimeconfig.cache
 D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-ios\iossimulator-x64\ref\ChatAppWithSignalR.Client.dll
+D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\bin\Debug\net6.0-ios\iossimulator-x64\Microsoft.AspNetCore.Connections.Abstractions.dll
+D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\bin\Debug\net6.0-ios\iossimulator-x64\Microsoft.AspNetCore.Http.Connections.Client.dll
+D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\bin\Debug\net6.0-ios\iossimulator-x64\Microsoft.AspNetCore.Http.Connections.Common.dll
+D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\bin\Debug\net6.0-ios\iossimulator-x64\Microsoft.AspNetCore.SignalR.Client.dll
+D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\bin\Debug\net6.0-ios\iossimulator-x64\Microsoft.AspNetCore.SignalR.Client.Core.dll
+D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\bin\Debug\net6.0-ios\iossimulator-x64\Microsoft.AspNetCore.SignalR.Common.dll
+D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\bin\Debug\net6.0-ios\iossimulator-x64\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\bin\Debug\net6.0-ios\iossimulator-x64\Microsoft.Extensions.Features.dll
+D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\bin\Debug\net6.0-ios\iossimulator-x64\System.IO.Pipelines.dll

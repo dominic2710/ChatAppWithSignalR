@@ -12284,6 +12284,7 @@ public final class R {
     public static final int Maui_MainTheme_NoActionBar=0x7f10012b;
     /**
      * Splash theme
+     * Splash theme
      */
     public static final int Maui_SplashTheme=0x7f10012c;
     public static final int MauiCheckBox=0x7f10012d;

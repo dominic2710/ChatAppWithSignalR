@@ -16,8 +16,9 @@ namespace ChatAppWithSignalR.Client.ViewModels
         }
 
         private ServiceProvider _serviceProvider;
+        private ChatHub _chatHub;
 
-        public ListChatPageViewModel(ServiceProvider serviceProvider)
+        public ListChatPageViewModel(ServiceProvider serviceProvider, ChatHub chatHub)
         {
             UserInfo = new User();
             UserFriends = new ObservableCollection<User>();
@@ -40,7 +41,14 @@ namespace ChatAppWithSignalR.Client.ViewModels
                 await Shell.Current.GoToAsync($"ChatPage?fromUserId={UserInfo.Id}&toUserId={param}");
             });
 
-            this._serviceProvider = serviceProvider;
+            _serviceProvider = serviceProvider;
+            _chatHub = chatHub;
+            _chatHub.Connect();
+            _chatHub.AddReceivedMessageHandler(OnReceivedMessage);
+
+            MessagingCenter.Send<string>("StartService", "MessageForegroundService");
+            MessagingCenter.Send<string, string[]>("StartService", "MessageNotificationService", new string[] { });
+
         }
 
         private User userInfo;
@@ -82,8 +90,26 @@ namespace ChatAppWithSignalR.Client.ViewModels
             if (query == null || query.Count == 0) return;
 
             UserInfo.Id = int.Parse(HttpUtility.UrlDecode(query["userId"].ToString()));
-            
+        }
 
+        void OnReceivedMessage(int fromUserId, string message)
+        {
+            var lastestMessage = LastestMessages.Where(x => x.UserFriendInfo.Id == fromUserId).FirstOrDefault();
+            if (lastestMessage != null)
+                LastestMessages.Remove(lastestMessage);
+
+            var newLastestMessage = new LastestMessage
+            {
+                UserId = userInfo.Id,
+                Content = message,
+                UserFriendInfo = UserFriends.Where(x=>x.Id == fromUserId).FirstOrDefault()
+            };
+
+            LastestMessages.Insert(0, newLastestMessage);
+            OnPropertyChanged("LastestMessages");
+
+            MessagingCenter.Send<string, string[]>("Notify", "MessageNotificationService", 
+                new string[] {newLastestMessage.UserFriendInfo.UserName, newLastestMessage.Content});
         }
 
         public User UserInfo

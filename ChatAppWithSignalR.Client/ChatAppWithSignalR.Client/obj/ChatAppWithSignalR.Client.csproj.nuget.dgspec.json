@@ -10,7 +10,7 @@
         "projectUniqueName": "D:\\PROGRAMINGS\\GitRepos\\ChatAppWithSignalR\\ChatAppWithSignalR.Client\\ChatAppWithSignalR.Client\\ChatAppWithSignalR.Client.csproj",
         "projectName": "ChatAppWithSignalR.Client",
         "projectPath": "D:\\PROGRAMINGS\\GitRepos\\ChatAppWithSignalR\\ChatAppWithSignalR.Client\\ChatAppWithSignalR.Client\\ChatAppWithSignalR.Client.csproj",
-        "packagesPath": "C:\\Users\\MrTam\\.nuget\\packages\\",
+        "packagesPath": "D:\\_TmpC\\.nuget\\packages",
         "outputPath": "D:\\PROGRAMINGS\\GitRepos\\ChatAppWithSignalR\\ChatAppWithSignalR.Client\\ChatAppWithSignalR.Client\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
@@ -75,12 +75,12 @@
             },
             "Microsoft.Maui.Dependencies": {
               "target": "Package",
-              "version": "[6.0.400, )",
+              "version": "[6.0.419, )",
               "autoReferenced": true
             },
             "Microsoft.Maui.Extensions": {
               "target": "Package",
-              "version": "[6.0.400, )",
+              "version": "[6.0.419, )",
               "autoReferenced": true
             },
             "Newtonsoft.Json": {
@@ -101,16 +101,32 @@
           "warn": true,
           "downloadDependencies": [
             {
+              "name": "Microsoft.Android.Runtime.33.android-arm",
+              "version": "[32.0.440, 32.0.440]"
+            },
+            {
+              "name": "Microsoft.Android.Runtime.33.android-arm64",
+              "version": "[32.0.440, 32.0.440]"
+            },
+            {
+              "name": "Microsoft.Android.Runtime.33.android-x64",
+              "version": "[32.0.440, 32.0.440]"
+            },
+            {
+              "name": "Microsoft.Android.Runtime.33.android-x86",
+              "version": "[32.0.440, 32.0.440]"
+            },
+            {
               "name": "Microsoft.NETCore.App.Host.linux-arm",
-              "version": "[6.0.5, 6.0.5]"
+              "version": "[6.0.6, 6.0.6]"
             },
             {
               "name": "Microsoft.NETCore.App.Host.linux-arm64",
-              "version": "[6.0.5, 6.0.5]"
+              "version": "[6.0.6, 6.0.6]"
             },
             {
               "name": "Microsoft.NETCore.App.Host.linux-x64",
-              "version": "[6.0.5, 6.0.5]"
+              "version": "[6.0.6, 6.0.6]"
             }
           ],
           "frameworkReferences": {
@@ -130,7 +146,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400-preview.22301.10\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400-preview.22330.6\\RuntimeIdentifierGraph.json"
         },
         "net6.0-ios15.4": {
           "targetAlias": "net6.0-ios",
@@ -149,12 +165,12 @@
             },
             "Microsoft.Maui.Dependencies": {
               "target": "Package",
-              "version": "[6.0.400, )",
+              "version": "[6.0.419, )",
               "autoReferenced": true
             },
             "Microsoft.Maui.Extensions": {
               "target": "Package",
-              "version": "[6.0.400, )",
+              "version": "[6.0.419, )",
               "autoReferenced": true
             },
             "Newtonsoft.Json": {
@@ -195,7 +211,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400-preview.22301.10\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400-preview.22330.6\\RuntimeIdentifierGraph.json"
         },
         "net6.0-maccatalyst15.4": {
           "targetAlias": "net6.0-maccatalyst",
@@ -214,12 +230,12 @@
             },
             "Microsoft.Maui.Dependencies": {
               "target": "Package",
-              "version": "[6.0.400, )",
+              "version": "[6.0.419, )",
               "autoReferenced": true
             },
             "Microsoft.Maui.Extensions": {
               "target": "Package",
-              "version": "[6.0.400, )",
+              "version": "[6.0.419, )",
               "autoReferenced": true
             },
             "Newtonsoft.Json": {
@@ -261,7 +277,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400-preview.22301.10\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400-preview.22330.6\\RuntimeIdentifierGraph.json"
         },
         "net6.0-windows10.0.19041": {
           "targetAlias": "net6.0-windows10.0.19041.0",
@@ -280,12 +296,12 @@
             },
             "Microsoft.Maui.Dependencies": {
               "target": "Package",
-              "version": "[6.0.400, )",
+              "version": "[6.0.419, )",
               "autoReferenced": true
             },
             "Microsoft.Maui.Extensions": {
               "target": "Package",
-              "version": "[6.0.400, )",
+              "version": "[6.0.419, )",
               "autoReferenced": true
             },
             "Microsoft.Windows.SDK.BuildTools": {
@@ -313,19 +329,19 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
-              "version": "[6.0.5, 6.0.5]"
+              "version": "[6.0.6, 6.0.6]"
             },
             {
               "name": "Microsoft.NETCore.App.Runtime.win-x64",
-              "version": "[6.0.5, 6.0.5]"
+              "version": "[6.0.6, 6.0.6]"
             },
             {
               "name": "Microsoft.Windows.SDK.NET.Ref",
-              "version": "[10.0.19041.25, 10.0.19041.25]"
+              "version": "[10.0.19041.26, 10.0.19041.26]"
             },
             {
               "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
-              "version": "[6.0.5, 6.0.5]"
+              "version": "[6.0.6, 6.0.6]"
             }
           ],
           "frameworkReferences": {
@@ -345,7 +361,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400-preview.22301.10\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400-preview.22330.6\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {

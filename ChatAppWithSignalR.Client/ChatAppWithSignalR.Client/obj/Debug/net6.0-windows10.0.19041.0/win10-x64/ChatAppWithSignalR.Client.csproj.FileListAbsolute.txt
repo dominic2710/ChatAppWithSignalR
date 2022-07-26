@@ -598,7 +598,6 @@ D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWith
 D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\hostfxr.dll
 D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\hostpolicy.dll
 D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\mscordaccore.dll
-D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\mscordaccore_amd64_amd64_6.0.522.21309.dll
 D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\mscordbi.dll
 D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\mscorrc.dll
 D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\msquic.dll
@@ -705,3 +704,13 @@ D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWith
 D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Microsoft.AspNetCore.Connections.Abstractions.dll
+D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Microsoft.AspNetCore.Http.Connections.Client.dll
+D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Microsoft.AspNetCore.Http.Connections.Common.dll
+D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Microsoft.AspNetCore.SignalR.Client.dll
+D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Microsoft.AspNetCore.SignalR.Client.Core.dll
+D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Microsoft.AspNetCore.SignalR.Common.dll
+D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Features.dll
+D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\System.IO.Pipelines.dll
+D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\mscordaccore_amd64_amd64_6.0.622.26707.dll

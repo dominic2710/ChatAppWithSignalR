@@ -6,9 +6,10 @@
     the contents are regenerated.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" package="com.companyname.chatappwithsignalr.client" android:versionCode="1" android:versionName="1.0">
-  <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="31" />
+  <uses-sdk android:minSdkVersion="26" android:targetSdkVersion="31" />
   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
   <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
   <application android:name="crc64b8f6423293a5498a.MainApplication" android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:debuggable="true" android:extractNativeLibs="true" android:icon="@mipmap/appicon" android:label="ChatAppWithSignalR.Client" android:roundIcon="@mipmap/appicon_round" android:supportsRtl="true">
     <activity android:name="crc64b8f6423293a5498a.MainActivity" android:configChanges="density|orientation|smallestScreenSize|screenLayout|screenSize|uiMode" android:exported="true" android:theme="@style/Maui.SplashTheme">
       <intent-filter>
@@ -16,6 +17,8 @@
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
+    <service android:name="crc64a6fd733bb464d240.MessageForegroundService" android:label="Message Foreground Service" />
+    <service android:name="crc64a6fd733bb464d240.MessageNotificationService" android:label="Message Notification Service" />
     <activity android:name="crc6468b6408a11370c2f.WebAuthenticatorIntermediateActivity" android:configChanges="orientation|screenSize" android:exported="true" />
     <provider android:name="microsoft.maui.essentials.fileProvider" android:authorities="com.companyname.chatappwithsignalr.client.fileProvider" android:exported="false" android:grantUriPermissions="true">
       <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/microsoft_maui_essentials_fileprovider_file_paths" />

@@ -11,6 +11,7 @@ global using global::Microsoft.Maui.Controls.Hosting;
 global using global::Microsoft.Maui.Controls.Xaml;
 global using global::Microsoft.Maui.Devices;
 global using global::Microsoft.Maui.Devices.Sensors;
+global using global::Microsoft.Maui.Dispatching;
 global using global::Microsoft.Maui.Graphics;
 global using global::Microsoft.Maui.Hosting;
 global using global::Microsoft.Maui.Media;

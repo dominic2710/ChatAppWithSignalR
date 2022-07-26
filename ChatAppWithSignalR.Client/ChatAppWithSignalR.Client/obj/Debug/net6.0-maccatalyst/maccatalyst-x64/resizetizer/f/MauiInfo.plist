@@ -5,6 +5,7 @@
   <key>UIAppFonts</key>
   <array>
 	<string>MaterialIcons-Regular.ttf</string>
+	<string>MauiInfo.plist</string>
 	<string>OpenSans-Regular.ttf</string>
 	<string>OpenSans-Semibold.ttf</string>
   </array>

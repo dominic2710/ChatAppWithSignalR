@@ -1939,3 +1939,6 @@ D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWith
 D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-android\android\assets\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
 D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-android\android\assets\Microsoft.Extensions.Features.dll
 D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-android\android\assets\System.IO.Pipelines.dll
+D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-android\android\src\crc6452ffdc5b34af3a0f\MauiAppCompatEditText.java
+D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-android\android\src\crc64a6fd733bb464d240\MessageNotificationService.java
+D:\PROGRAMINGS\GitRepos\ChatAppWithSignalR\ChatAppWithSignalR.Client\ChatAppWithSignalR.Client\obj\Debug\net6.0-android\android\src\crc64a6fd733bb464d240\MessageForegroundService.java
